@@ -22,8 +22,10 @@ export default function RootLayout() {
       <Stack>
         <Stack.Screen name="(tabs)" options={{ headerShown: false }} />
         <Stack.Screen name="+not-found" />
-        <Stack.Screen name="level1" options={{ headerShown: false, gestureEnabled: true }} />
-        <Stack.Screen name="level2" options={{ headerShown: false, gestureEnabled: true }} />
+        <Stack.Screen name="level1" options={{ headerShown: false, gestureEnabled: false }} />
+        <Stack.Screen name="level2" options={{ headerShown: false, gestureEnabled: false }} />
+        <Stack.Screen name="level3" options={{ headerShown: false, gestureEnabled: false }} />
+        <Stack.Screen name="level4" options={{ headerShown: false, gestureEnabled: false }} />
       </Stack>
       <StatusBar style="auto" />
     </ThemeProvider>
